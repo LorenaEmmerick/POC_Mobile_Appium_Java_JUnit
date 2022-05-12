@@ -1,5 +1,7 @@
 # POC_Mobile_Appium_Java_JUnit
 
+Configurações para o Linux Ubuntu:
+
 Após ter o node instalado:
 Instalar Appium
 ```
@@ -11,12 +13,12 @@ Verificar o que precisa para rodar o Appium
 npx appium-doctor
 ```
 
-Instalar as dependências do projeto
+Instalar as dependências do projeto com Maven
 ```
 mvn install
 ```
 
-Instalando o JDK
+Instalando o JDK no Linux
 ```
 sudo apt update
 sudo apt search openjdk
@@ -36,7 +38,7 @@ Editar os arquivos das variáveis de ambiente no Linux
 sudo gedit ~/.bashrc
 ```
 
-Atualizar os arquivos no 'bashrc'
+Atualizar os arquivos no 'bashrc' no Linux
 ```
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 export PATH=$PATH:$JAVA_HOME/bin
@@ -56,28 +58,23 @@ Atualizar os arquivos das variáveis de ambiente no Linux
 source ~/.bashrc
 ```
 
-Verificar as instalações
+Verificar as instalações no Linux
 ```
 echo $ANDROID_HOME
 echo $JAVA_HOME
 npx appium-doctor
 ```
 
-Iniciar o Android Studio:
+Iniciar o Android Studio no Linux
 ```
 cd android-studio/bin
 ./studio.sh
 ```
 
-Instalar o KVM para o AVD do Android Studio
+Instalar o KVM para o AVD do Android Studio no Linux
 ```
 sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
 sudo apt-get install cpu-checker
-```
-
-Colocar o ícone do Android Studio
-```
-sudo snap install android-studio --classic
 ```
 
 Resolver dependências do projeto
@@ -88,8 +85,8 @@ mvn dependency:resolve
 ```
 
 UIAutomatorViewer para inspecionar o apk
-cd Android/Sdk/tools/bin
 ```
+cd Android/Sdk/tools/bin
 ./uiautomatorviewer
 ```
 
