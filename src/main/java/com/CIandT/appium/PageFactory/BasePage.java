@@ -1,4 +1,4 @@
-package com.CIandT.appium.PageObjects;
+package com.CIandT.appium.PageFactory;
 
 import com.CIandT.appium.utils.Utils;
 import io.appium.java_client.MobileElement;
@@ -16,8 +16,11 @@ public class BasePage extends Utils {
     }
 
     public static void click(MobileElement el) {
+        System.out.println("Verificando se é clicavel");
         toBeClickable(el);
+        System.out.println("É clicavel");
         el.click();
+        System.out.println("Foi dado o click");
     }
 
     public static String getText(MobileElement el) {

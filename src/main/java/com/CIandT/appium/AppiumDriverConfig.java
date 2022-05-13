@@ -22,7 +22,7 @@ public class AppiumDriverConfig {
     }
 
     private AppiumDriverConfig() {
-        File apk = new File("/home/lorenae/POC/POC_Mobile_Appium_Java_JUnit/src/main/resources/alura_esporte.apk");
+        File apk = new File("src/main/resources/alura_esporte.apk");
 
         DesiredCapabilities configuracoes = new DesiredCapabilities();
         configuracoes.setCapability(MobileCapabilityType.APP, apk.getAbsolutePath());

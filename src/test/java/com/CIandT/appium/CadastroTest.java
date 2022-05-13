@@ -9,15 +9,22 @@ import org.junit.Test;
 import org.openqa.selenium.NoSuchElementException;
 import static org.junit.Assert.assertEquals;
 
-public class FeatureTest extends BaseTest {
+public class CadastroTest extends BaseTest {
 
 
     @Test
     public void nao_consigo_cadastrar_usuario_com_senhas_que_nao_conferem() {
-        CadastroPage telaCadastro = new CadastroPage();
+        System.out.println("Entrou no teste");
         LoginPage telaLogin = new LoginPage();
+
+        System.out.println("Criou tela login");
         telaLogin.clickCadastro();
+
+        System.out.println("Criou Tela Cadastro");
+        CadastroPage telaCadastro = new CadastroPage();
+        System.out.println("Clicou em cadastro");
         telaCadastro.cadastrar("Bugan", "123", "456");
+        System.out.println("Preencheu form");
         assertEquals("Senhas não conferem", telaCadastro.getMensagemErroTxt());
     }
 
