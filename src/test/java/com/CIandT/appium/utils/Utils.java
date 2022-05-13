@@ -36,12 +36,10 @@ public class Utils {
 
     public static void init() throws MalformedURLException {
         Platform platform = Platform.valueOf(getPlatform());
-        System.out.println("platform = " + platform);
         DesiredCapabilities configuracoes = new DesiredCapabilities();
 
         switch (platform) {
             case IOS:
-                System.out.println("IOS");
                 configuracoes.setCapability("automationName", "XCUITest");
                 configuracoes.setCapability("deviceName", "Iphone 11 Pro Max");
                 configuracoes.setCapability("platformName", "IOS");
@@ -53,25 +51,18 @@ public class Utils {
                 driver = new IOSDriver<>(getUrlAppium(), configuracoes);
                 break;
             case ANDROID:
-                System.out.println("Android");
                 configuracoes.setCapability("deviceName", "Galaxy J5 Prime");
                 configuracoes.setCapability("app",  System.getProperty("user.dir") + "/apps/android/alura_esporte.apk");
                 configuracoes.setCapability("platformName", "Android");
                 configuracoes.setCapability("appActivity", ".ui.activity.MainActivity");
                 configuracoes.setCapability("appPackage", "br.com.alura.aluraesporte");
-                configuracoes.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
-                driver = new AndroidDriver<>(getUrlAppium(), configuracoes);
 
-//                configuracoes.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
-//                configuracoes.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + "/apps/android/alura_esporte.apk");
+                driver = new AndroidDriver<>(getUrlAppium(), configuracoes);
                 break;
         }
 
-        System.out.println("Espera driver");
         wait = new WebDriverWait(driver, 6000);
-        System.out.println("Saiu da espera");
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        System.out.println("Passou drive manager");
     }
 
     public static void quit() {

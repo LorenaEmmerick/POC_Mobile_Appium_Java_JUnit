@@ -16,11 +16,8 @@ public class BasePage extends Utils {
     }
 
     public static void click(MobileElement el) {
-        System.out.println("Verificando se é clicavel");
         toBeClickable(el);
-        System.out.println("É clicavel");
         el.click();
-        System.out.println("Foi dado o click");
     }
 
     public static String getText(MobileElement el) {
