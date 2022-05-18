@@ -3,22 +3,22 @@
 Configurações para o Linux Ubuntu:
 
 Após ter o node instalado:
-Instalar Appium
+Instale Appium
 ```
 npm install -g appium
 ```
 
-Verificar o que precisa para rodar o Appium
+Verifique o que precisa para rodar o Appium
 ```
 npx appium-doctor
 ```
 
-Instalar as dependências do projeto com Maven
+Instale as dependências do projeto com Maven
 ```
 mvn install
 ```
 
-Instalando o JDK no Linux
+Instale o JDK no Linux
 ```
 sudo apt update
 sudo apt search openjdk
@@ -33,12 +33,12 @@ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 java -version
 ```
 
-Editar os arquivos das variáveis de ambiente no Linux
+Edite os arquivos das variáveis de ambiente no Linux
 ```
 sudo gedit ~/.bashrc
 ```
 
-Atualizar os arquivos no 'bashrc' no Linux
+Atualize os arquivos no 'bashrc' no Linux
 ```
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 export PATH=$PATH:$JAVA_HOME/bin
@@ -53,31 +53,31 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 ```
 
-Atualizar os arquivos das variáveis de ambiente no Linux
+Atualize os arquivos das variáveis de ambiente no Linux
 ```
 source ~/.bashrc
 ```
 
-Verificar as instalações no Linux
+Verifique as instalações no Linux
 ```
 echo $ANDROID_HOME
 echo $JAVA_HOME
 npx appium-doctor
 ```
 
-Iniciar o Android Studio no Linux
+Inicie o Android Studio no Linux
 ```
 cd android-studio/bin
 ./studio.sh
 ```
 
-Instalar o KVM para o AVD do Android Studio no Linux
+Instale o KVM para o AVD do Android Studio no Linux
 ```
 sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
 sudo apt-get install cpu-checker
 ```
 
-Resolver dependências do projeto
+Resolva as dependências do projeto
 ```
 mvn install
 ou 
