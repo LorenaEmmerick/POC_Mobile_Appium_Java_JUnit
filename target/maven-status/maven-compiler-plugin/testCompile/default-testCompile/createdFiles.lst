@@ -1,0 +1,11 @@
+com/CIandT/appium/pageFactory/pages/LoginPage.class
+com/CIandT/appium/pageFactory/pages/CadastroPage.class
+com/CIandT/appium/pageFactory/elements/LoginElement.class
+com/CIandT/appium/PageFactory/BasePage.class
+com/CIandT/appium/steps/BaseStep.class
+com/CIandT/appium/utils/Utils$1.class
+com/CIandT/appium/utils/Utils$Platform.class
+com/CIandT/appium/pageFactory/elements/CadastroElement.class
+com/CIandT/appium/runners/Runner.class
+com/CIandT/appium/steps/CadastroStep.class
+com/CIandT/appium/utils/Utils.class
