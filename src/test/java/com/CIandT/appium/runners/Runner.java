@@ -13,12 +13,16 @@ import org.junit.runner.RunWith;
         monochrome = true,
         publish = false,
         plugin = {
-                "pretty",
-                "summary",
-                "json:target/cumcumber/cucumber-report.json",
-                "html:target/cumcumber/cucumber-html-report.html",
-                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+                "pretty", "summary","json:target/jsonReports/cucumber-report.json"
+
         }
 )
 public class Runner {
+
+//                        "json:target/cumcumber/cucumber-report.json", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+//                                "html:target/cumcumber/cucumber-html-report.html",
+//                                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+//                                "json:target/jsonReports/cucumber-report.json",
+
+
 }

@@ -1,0 +1,62 @@
+passColor: 00A347
+failColor: F51A0D
+skipColor: FFB424
+displayFeature: true
+displayScenario: true
+displayDetailed: true
+
+summaryConfig:
+  title: Automation Appium
+  dataBackgroundColor: 9C9C9C
+  titleColor: 0019BA
+  dateColor: 454545
+  #startTimeColor: 000000
+  #endTimeColor: 000000
+  #durationColor: 00A347
+  dial:
+    featureRanges: 60 95
+    scenarioRanges: 70 90
+    stepRanges: 75 85
+    badColor: F5968D
+    averageColor: FFCD7D
+    goodColor: B9F3E3
+
+featureConfig:
+  #itemcount: 10
+  totalColor: 0019BA
+  durationColor: 000000
+
+scenarioConfig:
+  #itemcount: 12
+  totalColor: 0019BA
+  durationColor: 000000
+
+detailedFeatureConfig:
+  featureNameColor: 0019BA
+  startEndTimeColor: 000000
+  tagColor: 0DB4FC
+  dataHeaderColor: FFFFFF
+  dataBackgroundColor: 9C9C9C
+  totalColor: 0000FF
+  durationColor: 000000
+  durationBackgroundColor: 9C9C9C
+
+detailedScenarioConfig:
+  featureNameColor: 404040
+  scenarioNameColor: 0019BA
+  startEndTimeColor: 000000
+  tagColor: 7817E6
+  dataHeaderColor: FFFFFF
+  dataBackgroundColor: 9C9C9C
+  totalColor: 0000FF
+  durationColor: 7817E6
+  durationBackgroundColor: FFFFFF
+  stepChartBarColor: 7817E6
+
+detailedStepHookConfig:
+  stepTextColor: 0019BA
+  hookTextColor: 009900
+  durationColor: 000000
+  errorMsgColor: 000000
+  logMsgColor: 000000
+  #mediaMsgColor: FF0000
