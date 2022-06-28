@@ -4,7 +4,6 @@ import com.CIandT.appium.utils.Utils;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import io.qameta.allure.Allure;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -18,8 +17,7 @@ public class BaseStep {
     public void setup() throws MalformedURLException {Utils.init();}
 
 
-
-    @After
+/*    @After
     public void tearDown(Scenario scenario)throws IllegalMonitorStateException{
         if(scenario.isFailed())
         {
@@ -27,5 +25,6 @@ public class BaseStep {
             Utils.quit();
         }
         Utils.quit();
-    }
+    }*/
+
 }

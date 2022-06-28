@@ -1,9 +1,0 @@
-/home/lorenae/POC/POC_Mobile_Appium_Java_JUnit-refactor-com-cucumber/src/test/java/com/CIandT/appium/steps/BaseStep.java
-/home/lorenae/POC/POC_Mobile_Appium_Java_JUnit-refactor-com-cucumber/src/test/java/com/CIandT/appium/pageFactory/pages/CadastroPage.java
-/home/lorenae/POC/POC_Mobile_Appium_Java_JUnit-refactor-com-cucumber/src/test/java/com/CIandT/appium/runners/Runner.java
-/home/lorenae/POC/POC_Mobile_Appium_Java_JUnit-refactor-com-cucumber/src/test/java/com/CIandT/appium/pageFactory/elements/CadastroElement.java
-/home/lorenae/POC/POC_Mobile_Appium_Java_JUnit-refactor-com-cucumber/src/test/java/com/CIandT/appium/pageFactory/pages/LoginPage.java
-/home/lorenae/POC/POC_Mobile_Appium_Java_JUnit-refactor-com-cucumber/src/test/java/com/CIandT/appium/pageFactory/BasePage.java
-/home/lorenae/POC/POC_Mobile_Appium_Java_JUnit-refactor-com-cucumber/src/test/java/com/CIandT/appium/steps/CadastroStep.java
-/home/lorenae/POC/POC_Mobile_Appium_Java_JUnit-refactor-com-cucumber/src/test/java/com/CIandT/appium/utils/Utils.java
-/home/lorenae/POC/POC_Mobile_Appium_Java_JUnit-refactor-com-cucumber/src/test/java/com/CIandT/appium/pageFactory/elements/LoginElement.java
