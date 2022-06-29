@@ -15,13 +15,13 @@
     - [ExtentReportsAdapter](https://ghchirp.tech/2098/ "ExtentReportsAdapter")
 
 ## 🏃 Escolha um runner
-***Para escolher um runner, utilize os parâmetros:***
+*Para escolher um runner, utilize os parâmetros:*
 
-- ` Dtest=NomeDoRunner`
+- ` Dtest=Runner`
 >Runner é onde vamos agrupar as tags do cucumber. Funciona como uma suite de teste. 
 
 ## 📱 Escolha da Plataforma
-***Para selecionar a Plataforma de execução do teste, utilize os parâmetros:***
+*Para selecionar a Plataforma de execução do teste, utilize os parâmetros:*
 
 - Dplatform=IOS
 
@@ -73,7 +73,7 @@ ou
 O relatório JSON é gerado automaticamente dentro do diretório ``target/jsonReports``
 
 ### Extent Adapter
-O relatórios são gerados automaticamente dentro do diretório ``test-output`` é gerado reporter HTML, JSON e PDF
+O relatórios são gerados automaticamente dentro do diretório ``test-output`` nos formatos HTML, JSON e PDF
 
 
 [⬆ Voltar ao topo](#POC-MOBILE)<br>

@@ -4,11 +4,6 @@
 
 Configurações para o Linux Ubuntu:
 
-## Instalar Node (opcional)
-```
-    sudo apt install nodejs
-```
-
 ## Instalar Appium
 ```
     npm install -g appium
