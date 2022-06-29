@@ -105,7 +105,6 @@ appium
 
 # Referencias 
 https://medium.com/@herbert1078/como-configurar-o-appium-server-e-o-appium-desktop-de-uma-vez-por-todas-bbb3432d6573
-https://www.programsbuzz.com/article/allure-report-cucumber
 https://www.programsbuzz.com/course/cucumber-tutorial
 https://junit.org/junit5/docs/current/api/
 
