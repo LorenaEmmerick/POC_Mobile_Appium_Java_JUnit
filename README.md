@@ -4,12 +4,12 @@
 
 ## ⚒️ Recursos utilizados
 - **Tecnologias**
-    - [Java](https://www.java.com/pt-BR/)
-    - [Maven](https://maven.apache.org/guides/index.html)
-    - [Lombok](https://projectlombok.org/features/all)
+    - [Java](https://www.java.com/pt-BR/ "Java")
+    - [Maven](https://maven.apache.org/guides/index.html "Maven")
+    - [Lombok](https://projectlombok.org/features/all "Lombok")
     - [JUnit](https://junit.org/junit4/ "JUnit")
-    - [Cucumber](https://cucumber.io/)
-    - [Appium](https://appium.io/)
+    - [Cucumber](https://cucumber.io/ "Cucumber")
+    - [Appium](https://appium.io/ "Appium")
     - [PageFactory](https://naveenautomationlabs.com/13-implementing-page-factory-in-appium-based-framework/ "PageFactory")
     - [PageObject (pattern)](https://martinfowler.com/bliki/PageObject.html "PageObject")
     - [ExtentReportsAdapter](https://ghchirp.tech/2098/ "ExtentReportsAdapter")
