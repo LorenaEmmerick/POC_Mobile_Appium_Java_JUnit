@@ -4,7 +4,7 @@
 
 Configurações para o Linux Ubuntu:
 
-## Instalar Node
+## Instalar Node (opcional)
 ```
     sudo apt install nodejs
 ```
@@ -61,10 +61,6 @@ CLique no link acima, e baixe o android studio
     mvn install
 ```
 
-## Instalar allure
-```
-  npm install -g allure-commandline
-```
 ## Instalando o JDK no Linux
 ```
     sudo apt update

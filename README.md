@@ -1,6 +1,5 @@
 
 # POC MOBILE
-![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 >Projeto de exemplo para automações mobile, automatiza app Alura Esportes
 
 ## ⚒️ Recursos utilizados
@@ -8,10 +7,12 @@
     - [Java](https://www.java.com/pt-BR/)
     - [Maven](https://maven.apache.org/guides/index.html)
     - [Lombok](https://projectlombok.org/features/all)
-    - [Junit 5](https://junit.org/junit5)
+    - [JUnit](https://junit.org/junit4/ "JUnit")
     - [Cucumber](https://cucumber.io/)
     - [Appium](https://appium.io/)
-    - [Allure](https://docs.qameta.io/allure/)
+    - [PageFactory](https://naveenautomationlabs.com/13-implementing-page-factory-in-appium-based-framework/ "PageFactory")
+    - [PageObject (pattern)](https://martinfowler.com/bliki/PageObject.html "PageObject")
+    - [ExtentReportsAdapter](https://ghchirp.tech/2098/ "ExtentReportsAdapter")
 
 ## 🏃 Escolha um runner
 ***Para escolher um runner, utilize os parâmetros:***
@@ -32,7 +33,6 @@
 
 ## 💻 Pré-requisitos para executar os testes do projeto
 
-- [x] Node instalado
 - [x] Appium instalado
 - [x] Appium desktop instalado
 - [x] Android studio instalado (ou algum emulador)
@@ -42,7 +42,6 @@
 - [x] Appium doctor com tudo OK
 - [x] Conseguir startar o server do APPIUM
 - [x] Startar emulador mobile
-- [ ] Allure instalado
 
 
 > Caso não atenda algum dos requsitos e não saiba como configurar a máquina siga este tutorial [README CONFIGURAÇÕES](README-configuracao.md)  
@@ -68,16 +67,13 @@ ou
 > Além disso, nesse caso a pasta de relatório não sera gerada dentro da pasta target, ficara na raiz do projeto allure-reports
 > >OBS: Tags no CI tem maior chance de falhar. Por este motivo a melhor prática é utilizar os runners para executar em CI. 
 
-## 📜 Geração de relatório
-### Allure
-   - Caso tenha executado pela interface da sua IDE:
-     - ```allure serve allure-results```
-   - Caso tenha executado por linha de comando:
-     - ```allure serve targe/allure-results```
->OBS: Sempre importante apagar os relatório antes de cada execução, para não poluir o relatório com dados de execuções antigas
+## 📜 Geração de relatórios
 
 ### Cucumber
-  O relatórios são gerados automaticamente dentro do diretório ``target/cucumber`` é gerado reporter HTML e JSON
+O relatório JSON é gerado automaticamente dentro do diretório ``target/jsonReports``
+
+### Extent Adapter
+O relatórios são gerados automaticamente dentro do diretório ``test-output`` é gerado reporter HTML, JSON e PDF
 
 
 [⬆ Voltar ao topo](#POC-MOBILE)<br>
